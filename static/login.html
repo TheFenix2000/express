@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./gfx/fawkes_icon.png">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="./">main</a>
+            <a href="./register">register</a>
+            <a href="./login">login</a>
+            <a href="./admin">admin</a>
+        </div>
+        <div class="content">
+            <div class="title">register page</div>
+            
+            <form action="/login" method="POST" class="box">
+                <div class="line">
+                    <label for="userName">Login:</label>
+                    <div class="part">
+                        <input type="text" name="userName">  
+                    </div>
+                    
+                </div>
+                <div class="line">
+                    <label for="password">Password:</label>
+                    <div class="part">
+                        <input type="password" name="password">   
+                    </div>
+                    
+                </div>
+                <div class="line">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

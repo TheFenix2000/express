@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./gfx/fawkes_icon.png">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="./">main</a>
+            <a href="./register">register</a>
+            <a href="./login">login</a>
+            <a href="./admin">admin</a>
+        </div>
+        <div class="content">
+            <div class="title">register page</div>
+            
+            <form action="/register" method="POST" class="box">
+                <div class="line">
+                    <label for="userN">Username:</label>
+                    <div class="part">
+                        <input type="text" name="userName">  
+                    </div>
+                    
+                </div>
+                <div class="line">
+                    <label for="password">Password:</label>
+                    <div class="part">
+                        <input type="password" name="password">   
+                    </div>
+                    
+                </div>
+                <div class="line">
+                    <label for="age">Age:</label>
+                    <div class="part">
+                        <select name="ages" style="width: 95%;">
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                        
+                    
+                </div>
+                <div class="line">
+                    <label for="age">Student?: </label>
+                    <div class="part">
+                        <input type="checkbox" name="student">
+                    </div>
+                </div>
+                <div class="line">
+                    <label for="gender">Gender: </label>
+                    <div class="part">
+                        <input type="radio" id="male" name="gender" value="k">
+                        <label for="gender" style="margin-left: -30px;">K </label>
+                        <input type="radio" id="female" name="gender" value="m">
+                        <label for="gender" style="margin-left: -30px;">M </label>
+                    </div>
+                </div>
+                <div class="line">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

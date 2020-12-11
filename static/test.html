@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin page - show</title>
+    <link rel="icon" href="./gfx/fawkes_icon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>body,html {background-color: #121212;}*{color: #d4d3d3 !important;}</style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header" style="background-color: #083602;"><a href="./">main</a><a href="./register">register</a><a
+                href="./login">login</a><a href="./admin">admin</a><a href="./logout">logout</a></div>
+        <div class="header" style="background-color: #1b1a44;"><a href="./sort">sort</a><a href="./gender">gender</a><a
+                href="./show">show</a></div>
+        <div class="content" style="height: 90vh;">
+            <form class="part2" onchange="this.submit()" method="POST"><input name="sort" type="radio" value="up"><label for="sort">Increasing &darr;</label><input name="sort" type="radio" value="down"><label for="sort">Decreasing &uarr;</label></form>
+            <table>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
